@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.name}>Your Name</Text>
-      <Text style={styles.roll}>Roll No: 000</Text>
+      <Text style={styles.name}>Muhammad Umer</Text>
+      <Text style={styles.roll}>Roll No: 23i-6129</Text>
       <StatusBar style="auto" />
     </View>
   );
