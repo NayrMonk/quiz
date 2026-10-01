@@ -5,7 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.name}>Your Name</Text>
-      <Text style={styles.roll}>Roll No: 000</Text>
+      <Text style={styles.roll}>Roll No: 000</Text
+      <Text>Simulated CI failure</Text>
       <StatusBar style="auto" />
     </View>
   );
