@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import ProfileHeader from './components/ProfileHeader';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.name}>Muhammad Umer</Text>
-      <Text style={styles.roll}>Roll No: 23i-6129</Text>
+      <ProfileHeader name="Muhammad Umer" roll="23i-6129" />
       <StatusBar style="auto" />
     </View>
   );
@@ -17,13 +17,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  name: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  roll: {
-    fontSize: 16,
-    marginTop: 4,
   },
 });
